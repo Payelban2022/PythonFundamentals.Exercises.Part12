@@ -51,5 +51,5 @@ def gen_set(val_in: str) -> Set:
     :return:
     """
     # pass
-    return{letter.upper() for letter in val_in if letter.lower()}
+    return{letter.upper() for letter in val_in if letter.islower()}
     
